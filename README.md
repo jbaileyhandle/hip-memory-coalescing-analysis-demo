@@ -2,9 +2,9 @@
 This is a demonstration of our AMD port of GPUDrano (https://github.com/upenn-acg/gpudrano-static-analysis_v1.0), a tool to identify uncoalesced memory accesses. The repo contains two directories. llvm-project contains llvm, which includes the uncoalesced memory pass. simple_kernel_example contains a simpel kernel and a makefile which runs the memory anlysis on the kernel when it is compiled.
 
 # Dependencies
-HIP*
+HIP**
 
-* Tested to work on HIP 5.1.20531-cacfa990, but may not work on older versions (i.e. verified not to work 4.2.21155-37cb3a34 due to changes in some HIP function names)
+** Tested to work on HIP 5.1.20531-cacfa990, but may not work on older versions (i.e. verified not to work 4.2.21155-37cb3a34 due to changes in some HIP function names)
 
 # Instructions to build + run demonstration.
 

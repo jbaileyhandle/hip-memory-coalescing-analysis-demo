@@ -23,7 +23,7 @@ cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=1 -DLLVM_TARGETS_TO_BU
 make -j
 
 ### Configure environment so that HIP uses the version of llvm we just built
-export HIP_CLANG_PATH=<Path to this repository>/llvm-project/build/bin
+export HIP_CLANG_PATH=\<Path to this repository\>/llvm-project/build/bin
 
 ### Run analysis on simple kernel
 (In simple_kernel_example subdirectory)
